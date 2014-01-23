@@ -75,6 +75,11 @@
 @import "styleguide";
 
 
+// Region Imports
+@import "regions/footer-global";
+@import "regions/header-global";
+
+
 // Component Imports
 @import "../_includes/components/common/comments/comments";
 @import "../_includes/components/common/legal/legal";

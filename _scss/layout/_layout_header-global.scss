@@ -1,6 +1,9 @@
 .global-header {
   @include outer-container;
   padding: $gutter;
+  @include media($large + $gutter) {
+    padding: $gutter 0;
+  }
   .header-content {
     @include span-columns(12);
   }

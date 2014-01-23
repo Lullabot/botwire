@@ -12,7 +12,7 @@
 /**
  * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 22, ../_scss/vendor/_normalize.scss */
+/* line 11, ../_scss/vendor/_normalize.scss */
 article,
 aside,
 details,
@@ -30,7 +30,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 32, ../_scss/vendor/_normalize.scss */
+/* line 30, ../_scss/vendor/_normalize.scss */
 audio,
 canvas,
 video {
@@ -85,7 +85,7 @@ html {
  * Address `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-/* line 89, ../_scss/vendor/_normalize.scss */
+/* line 85, ../_scss/vendor/_normalize.scss */
 html,
 button,
 input,
@@ -113,7 +113,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 118, ../_scss/vendor/_normalize.scss */
+/* line 117, ../_scss/vendor/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -166,7 +166,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-/* line 175, ../_scss/vendor/_normalize.scss */
+/* line 174, ../_scss/vendor/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
@@ -203,7 +203,7 @@ mark {
 /**
  * Address margins set differently in IE 6/7.
  */
-/* line 216, ../_scss/vendor/_normalize.scss */
+/* line 215, ../_scss/vendor/_normalize.scss */
 p,
 pre {
   margin: 1em 0; }
@@ -211,7 +211,7 @@ pre {
 /**
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 227, ../_scss/vendor/_normalize.scss */
+/* line 224, ../_scss/vendor/_normalize.scss */
 code,
 kbd,
 pre,
@@ -239,7 +239,7 @@ q {
 /**
  * Address `quotes` property not supported in Safari 4.
  */
-/* line 256, ../_scss/vendor/_normalize.scss */
+/* line 255, ../_scss/vendor/_normalize.scss */
 q:before,
 q:after {
   content: '';
@@ -255,7 +255,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 274, ../_scss/vendor/_normalize.scss */
+/* line 273, ../_scss/vendor/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -277,7 +277,7 @@ sub {
 /**
  * Address margins set differently in IE 6/7.
  */
-/* line 300, ../_scss/vendor/_normalize.scss */
+/* line 297, ../_scss/vendor/_normalize.scss */
 dl,
 menu,
 ol,
@@ -291,7 +291,7 @@ dd {
 /**
  * Address paddings set differently in IE 6/7.
  */
-/* line 314, ../_scss/vendor/_normalize.scss */
+/* line 312, ../_scss/vendor/_normalize.scss */
 menu,
 ol,
 ul {
@@ -300,7 +300,7 @@ ul {
 /**
  * Correct list images handled incorrectly in IE 7.
  */
-/* line 323, ../_scss/vendor/_normalize.scss */
+/* line 322, ../_scss/vendor/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -377,7 +377,7 @@ legend {
  *    and Chrome.
  * 3. Improve appearance and consistency in all browsers.
  */
-/* line 407, ../_scss/vendor/_normalize.scss */
+/* line 404, ../_scss/vendor/_normalize.scss */
 button,
 input,
 select,
@@ -395,7 +395,7 @@ textarea {
  * Address Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 420, ../_scss/vendor/_normalize.scss */
+/* line 419, ../_scss/vendor/_normalize.scss */
 button,
 input {
   line-height: normal; }
@@ -406,7 +406,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 432, ../_scss/vendor/_normalize.scss */
+/* line 431, ../_scss/vendor/_normalize.scss */
 button,
 select {
   text-transform: none; }
@@ -420,7 +420,7 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 449, ../_scss/vendor/_normalize.scss */
+/* line 446, ../_scss/vendor/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -435,7 +435,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 460, ../_scss/vendor/_normalize.scss */
+/* line 459, ../_scss/vendor/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -446,7 +446,7 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 472, ../_scss/vendor/_normalize.scss */
+/* line 471, ../_scss/vendor/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -476,7 +476,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 498, ../_scss/vendor/_normalize.scss */
+/* line 497, ../_scss/vendor/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -484,7 +484,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 3+.
  */
-/* line 507, ../_scss/vendor/_normalize.scss */
+/* line 506, ../_scss/vendor/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -662,7 +662,7 @@ fieldset {
   margin: 0 0 0.75em 0;
   padding: 1.5em; }
 
-/* line 19, ../_scss/vendor/bitters/_forms.scss */
+/* line 17, ../_scss/vendor/bitters/_forms.scss */
 input,
 label,
 select {
@@ -681,7 +681,7 @@ label {
   label abbr {
     display: none; }
 
-/* line 39, ../_scss/vendor/bitters/_forms.scss */
+/* line 38, ../_scss/vendor/bitters/_forms.scss */
 textarea,
 input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"] {
   -webkit-box-sizing: border-box;
@@ -733,7 +733,7 @@ select {
   width: auto;
   margin-bottom: 1.5em; }
 
-/* line 83, ../_scss/vendor/bitters/_forms.scss */
+/* line 82, ../_scss/vendor/bitters/_forms.scss */
 button,
 input[type="submit"] {
   -webkit-appearance: none;
@@ -864,7 +864,7 @@ dl {
 
 /* line 29, ../_scss/vendor/_responsive-nav.scss */
 .nav-toggle {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -936,18 +936,22 @@ body {
 /* line 15, ../_scss/layout/_layout_default.scss */
 .one-sidebar .main {
   *zoom: 1;
-  max-width: 70em;
+  max-width: 60em;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1.618em; }
-  /* line 18, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .one-sidebar .main:before, .one-sidebar .main:after {
     content: " ";
     display: table; }
   /* line 23, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .one-sidebar .main:after {
     clear: both; }
-  /* line 20, ../_scss/layout/_layout_default.scss */
+  @media screen and (min-width: 61.618em) {
+    /* line 15, ../_scss/layout/_layout_default.scss */
+    .one-sidebar .main {
+      padding: 0; } }
+  /* line 24, ../_scss/layout/_layout_default.scss */
   .one-sidebar .main .content-primary {
     display: block;
     float: left;
@@ -957,7 +961,7 @@ body {
     .one-sidebar .main .content-primary:last-child {
       margin-right: 0; }
     @media screen and (min-width: 45em) {
-      /* line 20, ../_scss/layout/_layout_default.scss */
+      /* line 24, ../_scss/layout/_layout_default.scss */
       .one-sidebar .main .content-primary {
         display: block;
         float: left;
@@ -966,7 +970,7 @@ body {
         /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
         .one-sidebar .main .content-primary:last-child {
           margin-right: 0; } }
-  /* line 28, ../_scss/layout/_layout_default.scss */
+  /* line 32, ../_scss/layout/_layout_default.scss */
   .one-sidebar .main .content-secondary {
     display: block;
     float: left;
@@ -976,7 +980,7 @@ body {
     .one-sidebar .main .content-secondary:last-child {
       margin-right: 0; }
     @media screen and (min-width: 45em) {
-      /* line 28, ../_scss/layout/_layout_default.scss */
+      /* line 32, ../_scss/layout/_layout_default.scss */
       .one-sidebar .main .content-secondary {
         display: block;
         float: left;
@@ -989,11 +993,11 @@ body {
 /* line 1, ../_scss/layout/_layout_footer-global.scss */
 .global-footer {
   *zoom: 1;
-  max-width: 70em;
+  max-width: 60em;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 1.618em; }
-  /* line 18, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  padding: 1.618em; }
+  /* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .global-footer:before, .global-footer:after {
     content: " ";
     display: table; }
@@ -1009,22 +1013,30 @@ body {
     /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
     .global-footer .footer-content:last-child {
       margin-right: 0; }
+  @media screen and (min-width: 61.618em) {
+    /* line 1, ../_scss/layout/_layout_footer-global.scss */
+    .global-footer {
+      padding: 1.618em 0; } }
 
 /* line 1, ../_scss/layout/_layout_header-global.scss */
 .global-header {
   *zoom: 1;
-  max-width: 70em;
+  max-width: 60em;
   margin-left: auto;
   margin-right: auto;
   padding: 1.618em; }
-  /* line 18, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .global-header:before, .global-header:after {
     content: " ";
     display: table; }
   /* line 23, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .global-header:after {
     clear: both; }
-  /* line 4, ../_scss/layout/_layout_header-global.scss */
+  @media screen and (min-width: 61.618em) {
+    /* line 1, ../_scss/layout/_layout_header-global.scss */
+    .global-header {
+      padding: 1.618em 0; } }
+  /* line 7, ../_scss/layout/_layout_header-global.scss */
   .global-header .header-content {
     display: block;
     float: left;
@@ -1041,7 +1053,7 @@ body {
   margin: 1.5em -1.25em;
   border: 1px dashed #cecece;
   border-left: 5px solid #dddddd; }
-  /* line 18, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .main .example:before, .main .example:after {
     content: " ";
     display: table; }
@@ -1076,13 +1088,17 @@ a.top-link {
     margin: 1.5em -1.5em;
     border: 1px dashed #cecece;
     border-left: 5px solid #dddddd; }
-    /* line 18, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+    /* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
     .main .example:before, .main .example:after {
       content: " ";
       display: table; }
     /* line 23, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
     .main .example:after {
       clear: both; } }
+/* line 1, ../_scss/regions/_footer-global.scss */
+.global-footer {
+  border-top: 3px solid #d7d7d7; }
+
 /* line 1, ../_includes/components/common/logo/_logo.scss */
 .logo {
   display: block;
@@ -1121,7 +1137,7 @@ a.top-link {
   /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
   .global-nav:last-child {
     margin-right: 0; }
-  /* line 18, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .global-nav:before, .global-nav:after {
     content: " ";
     display: table; }
