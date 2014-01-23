@@ -117,6 +117,29 @@ All of Foundation's basic styles are included in the _scss directory, but are co
 
 ---
 
+## Sass and styles
+
+[Sass](http://sass-lang.com) is used to break the CSS down into sensibly organized partials. 
+
+### Where the styles live
+The _scss directory contains all of the Sass files. The _scss/style.scss file imports all the various other .scss files and compiles to css/style.css in the end. The config.rb file contains the settings for how the Sass should compile things and where it can find things. All variables are found in the _scss/variables folder.
+
+### Compiling the Sass
+You can either use Compass to watch and compile your _scss directory, or use native app tools like [Codekit](http://incident57.com/codekit/), [Scout](http://mhs.github.io/scout-app/), [LiveReload](http://livereload.com) or [Compass App](http://compass.kkbox.com) (Lullabot's designers use Codekit primarily).
+
+---
+
+## Where things live
+
+- **Layouts:** Jekyll allows us to create layout templates, which are all located in the [_layouts](https://github.com/Lullabot/botwire/tree/master/_layouts) directory. The only layout file you'll probably need is [_layouts/default.html](https://github.com/Lullabot/botwire/blob/styles-master/_layouts/default.html), which contains the outer shell for every display we've designed for. The [_layouts/default.html](https://github.com/Lullabot/botwire/tree/master/_layouts/default.html) file is also where you'll find all of the CSS, Javascript and various IE fixes being loaded in the document head.
+- **Includes** Any file that contains [front-matter](http://jekyllrb.com/docs/frontmatter/) (even empty front-matter) will be processed by Jekyll. This means as long as we place front-matter at the beginning of our file, be it an html, markdown, scss, css or js file, we can use [Jekyll includes](http://jekyllrb.com/docs/templates/#includes) to pull in partials. We use this to break down our HTML components and also to simplify and compile all our Javascript into one file. Jekyll looks to the [_includes](https://github.com/Lullabot/botwire/tree/master/_includes) directory for partials to include.
+- **Javascript** Since the [js/all.js](https://github.com/Lullabot/botwire/blob/styles-master/js/all.js) file contains front-matter, we can use includes in it, which is what we've done. All of our base javascript for the site is located in [_includes/js](https://github.com/Lullabot/botwire/tree/master/_includes/js), and then gets compiled into the all.js file when Jekyll builds the site. The only exception to this is that we have some Javascript that we only want to load for IE8 and below, so we don't want it to be included in all.js (this keeps things faster for the majority of users). The IE related Javascript is located in [js/vendor](https://github.com/Lullabot/botwire/tree/master/js/vendor).
+- **IE Javascript** You'll also notice an [htc](https://github.com/Lullabot/botwire/tree/master/htc) directory, which contains a polyfill that's needed to fix the box-sizing rendering in IE8.
+- **IE Styles** You'll also notice [css/ie.css](https://github.com/Lullabot/botwire/blob/gh-pages/css/ie.css), which is a file containing special styling rules that only get loaded for IE8 and below. We've used front-matter so that this file gets compiled by Jekyll and can therefore use Jekyll's .baseurl variable to handle the file path for the box-sizing polyfill for us.
+- **The _site directory** When Jekyll compiles the site, it outputs the final HTML, CSS and Javascript to the _site directory. We can commit that directory as well after the final review, but currently our .gitignore file is causing it to be ignored with each commit.
+
+---
+
 ## Getting started with Jekyll
 
 If you'd like to spin up a local copy of the site and make edits, here are some quick instructions for how to get Jekyll up and running.
