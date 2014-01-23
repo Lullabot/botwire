@@ -53,7 +53,7 @@ The pattern for including a component within one of your wireframes is as follow
 {% include component.html component="my-component" %}
 ```
 
-By default, your component markup that you write in your _my-component.html_ will be wrapped in an article element and assigned a class of "component" as well your component name (e.g. class="component my-component"). You can override the element or add an additional class or id to any component using additional include parameters as follows ...
+By default, your component markup that you write in your _my-component.html_ will be wrapped in an article element and assigned a class of "component" as well as your component name (e.g. class="component my-component"). You can override the element or add an additional class or id to any component using additional include parameters as follows ...
 
 ```
 {% include component.html component="my-component" element="section" class="my-class" id="my-id" %}
