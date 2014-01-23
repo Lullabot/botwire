@@ -1,0 +1,6 @@
+<!-- the number of paragraphs of hipster ipsum is set using the "p2", simply change the number to the number of paragraphs you'd like. You can have up to 9 paragraphs. -->
+{{ site.hipsum | split:'<!-- p2 -->' | first }}
+  
+
+<!-- use the following example to print a specific truncated number of words of hipster ipsum -->
+<p>{{ site.hipsum | strip_html | truncatewords: 13 }}</p>

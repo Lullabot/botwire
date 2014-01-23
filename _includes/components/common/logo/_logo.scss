@@ -1,0 +1,14 @@
+.logo {
+  @include span-columns(12 of 12);
+  float: none;
+  img {
+    height: 1.5em;
+    width: auto;
+  }
+  @include media($nav-collapse) {
+    @include span-columns(3 of 12);
+    img {
+      height: auto;
+    }
+  }
+}

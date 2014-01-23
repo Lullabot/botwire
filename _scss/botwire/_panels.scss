@@ -1,0 +1,9 @@
+@mixin panel {
+  background: $light-gray;
+  padding: $gutter;
+  margin-bottom: $gutter;
+}
+
+.panel {
+  @include panel;
+}

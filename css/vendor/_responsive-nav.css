@@ -1,0 +1,26 @@
+/* responsive-nav.js v1.0.16 by @viljamis */
+/* line 3, ../../_scss/vendor/_responsive-nav.scss */
+#nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none; }
+
+/* line 11, ../../_scss/vendor/_responsive-nav.scss */
+#nav li {
+  width: 100%;
+  display: block; }
+
+/* line 16, ../../_scss/vendor/_responsive-nav.scss */
+.js #nav {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+/* line 25, ../../_scss/vendor/_responsive-nav.scss */
+#nav.opened {
+  max-height: 9999px; }

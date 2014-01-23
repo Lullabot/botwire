@@ -1,0 +1,53 @@
+.global-nav {
+  
+  @include span-columns(8 of 8);
+  @include clearfix;
+  @include media($nav-collapse) {
+    @include span-columns(9 of 12);
+    @include omega;
+    text-align: right;
+    padding-top: 2em;
+  }
+  
+  .nav-list {
+    margin: 0;
+  }
+  
+  li {
+    border-top: 1px solid $light-gray;
+    &:first-child {
+      border-top: none;
+    }
+    @include media($nav-collapse) {
+      float: none;
+      display: inline-block;
+      width: auto;
+      border-top: none;
+    }
+    a {
+      display: block;
+      padding: .25em 0;
+      @include media($nav-collapse) {
+        display: inline-block;
+        padding: .75em 1em;
+      }
+    }
+    &:last-child {
+      a {
+        padding-right: 0;
+      }
+    }
+  }
+  
+}
+
+.header-content {
+  position: relative;
+  .nav-toggle {
+    position: absolute;
+    top: 1.5em;
+    right: 0;
+    padding: .5em 0;
+    text-align: right;
+  }
+}

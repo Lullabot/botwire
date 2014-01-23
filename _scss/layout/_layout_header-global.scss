@@ -1,0 +1,7 @@
+.global-header {
+  @include outer-container;
+  padding: $gutter;
+  .header-content {
+    @include span-columns(12);
+  }
+}

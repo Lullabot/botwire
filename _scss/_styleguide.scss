@@ -1,0 +1,48 @@
+// styles that only exist to make the styleguide format and display nicely
+
+.main {
+  .example {
+    @include clearfix;
+    padding: 1.5em;
+    margin: 1.5em -1.25em;
+    border: 1px dashed #cecece;
+    border-left: 5px solid #dddddd;
+    .block-title {
+      margin-top: .5em;
+    }
+  }
+}
+
+a.top-link {
+  display: inline-block;
+  border-bottom: none;
+  &:hover {
+    border-bottom: none;
+  }
+  &:before {
+    content: '↑';
+    margin-right: .25em;
+  }
+}
+
+.background {
+  background: $light-gray;
+}
+
+////////////////////////////
+// 48em min-width (768px) //
+////////////////////////////
+
+@include media($medium) {
+
+  .main {
+    .example {
+      @include clearfix;
+      padding: 1.5em;
+      margin: 1.5em -1.5em;
+      border: 1px dashed #cecece;
+      border-left: 5px solid #dddddd;
+    }
+  }
+
+}

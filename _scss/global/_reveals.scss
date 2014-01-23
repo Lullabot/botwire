@@ -1,0 +1,25 @@
+.show-menu {
+  font-weight: bold;
+  border-bottom: none;
+  display: inline-block;
+  &:before {
+    content: '↓';
+    margin-right: .25em;
+  }
+  &.open:before {
+    content: '↑';
+  }
+}
+.anchor-menu {
+  a {
+    border-bottom: none;
+  }
+  &.hidden {
+    display: none;
+  }
+  dd {
+    padding-left: .85em;
+    background: url(../_images/arrow-right_gray.svg) no-repeat left center;
+    background-size: 4px 6px;
+  }
+}

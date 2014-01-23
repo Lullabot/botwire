@@ -1,0 +1,25 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+
+//////////////////////
+// Highlight Colors //
+//////////////////////
+
+::selection {
+  background: $blue;
+  color: white;
+}
+
+::-moz-selection {
+  background: $blue;
+  color: white;
+}
+
+::-webkit-selection {
+  background: $blue;
+  color: white;
+}
+
+

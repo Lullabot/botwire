@@ -1,0 +1,7 @@
+.global-footer {
+  @include outer-container;
+  padding: 0 $gutter;
+  .footer-content {
+    @include span-columns(12);
+  }
+}

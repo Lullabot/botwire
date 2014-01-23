@@ -1,0 +1,7 @@
+{% capture component_path %}components/{% if include.type != null %}{{include.type}}{% else %}common{% endif %}/{{include.component}}/{{include.component}}.html{% endcapture %}
+
+<{% if include.element != null %}{{ include.element }}{% else %}{{ site.component_element }}{% endif %} {%if include.id != null %}id="{{include.id}}" {% endif %}class="{{site.component_class}} {{include.component}}{% if include.class != null %} {{ include.class }}{% endif %}">
+
+  {% include {{component_path}} %}
+
+</{% if include.element != null %}{{ include.element }}{% else %}{{ site.component_element }}{% endif %}>

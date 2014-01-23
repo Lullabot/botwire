@@ -1,0 +1,51 @@
+/*! responsive-nav.js 1.0.24 by @viljamis */
+
+.global-nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+.global-nav li {
+  width: 100%;
+  display: block;
+}
+
+.js .global-nav {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.global-nav.opened {
+  max-height: 9999px;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@include media($nav-collapse) {
+  
+  .js .global-nav {
+    position: relative;
+  }
+  .js .global-nav.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  
+}

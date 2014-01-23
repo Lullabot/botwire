@@ -1,0 +1,37 @@
+///////////////////////////
+// Default Grid Settings //
+///////////////////////////
+
+$grid-columns: 12;
+$max-width: 70em;
+
+
+/////////////////
+// one sidebar //
+/////////////////
+
+.one-sidebar { 
+
+  .main {
+		
+		@include outer-container;
+		padding: 0 $gutter;
+
+		.content-primary {
+			@include span-columns(12);
+			@include media($medium) {
+				@include span-columns(8);
+			}
+
+		}
+		
+		.content-secondary {
+			@include span-columns(12);
+			@include media($medium) {
+				@include span-columns(4);
+			}
+		}
+		
+	}
+
+}
