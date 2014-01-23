@@ -79,7 +79,7 @@ This same principle applies to creating new navigation components or creating yo
 
 ```
 {% include component.html component="my-wacky-component" type="wacky" %}
-``
+```
 
 ---
 
