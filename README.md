@@ -12,9 +12,9 @@ Honestly, very little. At the moment, Botwire gives you ...
 - A basic Jekyll project structure
 - An initial structure for your Sass
 - A few ready-made boilerplate components
-- Some simple include perameters to make including components simple
+- Some simple include perameters for [including your components](#creating-and-including-components)
 - A few basic wireframe style patterns
-- A way to insert hipster ipsum text into your wireframes
+- A way to [insert hipster ipsum text into your wireframes](#using-hipster-ipsum)
 - An interface styleguide boilerplate
 
 ---
@@ -105,6 +105,18 @@ To add text that will display as truncated to a specific word count, use the fol
 
 ---
 
+## Choosing a grid system
+
+By default, Botwire is setup to use [Bourbon Neat](http://neat.bourbon.io) for the grid system. You'll find it referenced in _scss/style.css near the top. If you would like to use susy or another Sass based grid system instead you can simply delete or comment out the "@import 'neat';" line from style.scss.
+
+---
+
+## Leveraging Foundation's style patterns
+
+All of Foundation's basic styles are included in the _scss directory, but are commented out in _scss/style.css by default. If you would like to use any of Foundation's styles, simply uncomment the specific ones you'd like to use in _scss/style.scss.
+
+---
+
 ## Getting started with Jekyll
 
 If you'd like to spin up a local copy of the site and make edits, here are some quick instructions for how to get Jekyll up and running.
@@ -131,3 +143,5 @@ You can find more documentation at the [official Jekyll site](http://jekyllrb.co
 ### Github Pages
 
 To view the wireframes and mocks online, you can use Github Pages. Github Pages automagically publishes the gh-pages branch to http://accountname.github.io/project-name (accountname is your github user name and project-name is the name of your github project you've forked Botwire into). If you make a change to the master branch, simply merge that change into the gh-pages branch to see it online at http://accountname.github.io/project-name.
+
+
