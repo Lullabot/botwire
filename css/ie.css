@@ -1,0 +1,11 @@
+---
+---
+*,
+input[type="checkbox"],
+input[type="radio"],
+table,
+table th,
+table td {
+  box-sizing: border-box;
+  *behavior: url({{site.baseurl}}htc/boxsizing.htc); 
+}
