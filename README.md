@@ -167,4 +167,8 @@ You can find more documentation at the [official Jekyll site](http://jekyllrb.co
 
 To view the wireframes and mocks online, you can use Github Pages. Github Pages automagically publishes the gh-pages branch to http://accountname.github.io/project-name (accountname is your github user name and project-name is the name of your github project you've forked Botwire into). If you make a change to the master branch, simply merge that change into the gh-pages branch to see it online at http://accountname.github.io/project-name.
 
+---
 
+## Todo list
+
+I still plan to add a few sample display templates that show responsive examples for page regions, stay tuned.
