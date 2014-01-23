@@ -26,7 +26,7 @@ There are a couple ways you might use Botwire.
 1. Fork Botwire and simply rename your project (Go to "Settings" on your forked Github project to rename it) to whatever you'd like and start using it.
 2. Simply download the packaged ZIP of Botwire and make your own project.
 
-Once you have a local project setup on your machine, you'll still need to learn a little about using Jekyll (see info below).
+Once you have a local project setup on your machine, you'll still need to [learn a little about using Jekyll](#getting-started-with-jekyll).
 
 ---
 
