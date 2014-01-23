@@ -125,7 +125,7 @@ All of Foundation's basic styles are included in the _scss directory, but are co
 The _scss directory contains all of the Sass files. The _scss/style.scss file imports all the various other .scss files and compiles to css/style.css in the end. The config.rb file contains the settings for how the Sass should compile things and where it can find things. All variables are found in the _scss/variables folder.
 
 ### Compiling the Sass
-You can either use Compass to watch and compile your _scss directory, or use native app tools like [Codekit](http://incident57.com/codekit/), [Scout](http://mhs.github.io/scout-app/), [LiveReload](http://livereload.com) or [Compass App](http://compass.kkbox.com) (Lullabot's designers use Codekit primarily).
+You can either use Compass to watch and compile your project directory (since .scss files live in includes as well you need to watch the root directory and not just the _scss), or use native app tools like [Codekit](http://incident57.com/codekit/), [Scout](http://mhs.github.io/scout-app/), [LiveReload](http://livereload.com) or [Compass App](http://compass.kkbox.com) (Lullabot's designers use Codekit primarily).
 
 ---
 
