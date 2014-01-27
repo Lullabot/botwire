@@ -1,10 +1,6 @@
 .global-footer {
-  @include outer-container;
-  padding: $gutter;
-  .footer-content {
-    @include span-columns(12);
-  }
-  @include media($large + $gutter) {
-    padding: $gutter 0;
+  @include clearfix;
+  .full-width & {
+    padding: 0 $gutter;
   }
 }

@@ -25,20 +25,21 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <header class="global-header">
-            <div class="header-content">
-              {% include components/common/logo/logo.html %}
-              {% include components/navigation/nav-primary/nav-primary.html %}
-            </div>
-        </header> <!-- /.global-header --> 
-        <main id="container" class="main" role="main">
-          {{content}}
-        </main> <!-- /.main -->
-      
-        <footer class="global-footer">
-          {% include components/common/legal/legal.html %}
-        </footer> <!-- /.global-footer -->
+        <div id="page">
+          <header class="global-header">
+              <div class="header-content">
+                {% include component.html component="logo" element="h1" %}
+                {% include component.html component="nav-primary" type="navigation" element="nav" class="global-nav" id="nav" role="navigation"  %}
+              </div>
+          </header> <!-- /.global-header --> 
+          <main id="container" class="main" role="main">
+            {{content}}
+          </main> <!-- /.main -->
         
+          <footer class="global-footer">
+            {% include component.html component="legal" %}
+          </footer> <!-- /.global-footer -->
+        </div> <!-- /#page -->
    
 
         <script>

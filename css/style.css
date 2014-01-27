@@ -828,6 +828,41 @@ dl {
     .success a:hover, #flash_success a:hover {
       color: black; }
 
+/* line 1, ../_scss/botwire/_boxes.scss */
+.box-light {
+  background: #dddddd;
+  padding: 3.236em;
+  text-align: center;
+  color: #333333;
+  font-size: 1em;
+  text-transform: uppercase; }
+
+/* line 10, ../_scss/botwire/_boxes.scss */
+.box-medium {
+  background: #999999;
+  padding: 3.236em;
+  text-align: center;
+  color: #333333;
+  font-size: 1em;
+  text-transform: uppercase; }
+
+/* line 19, ../_scss/botwire/_boxes.scss */
+.box-dark {
+  background: #333333;
+  padding: 3.236em;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase; }
+
+/* line 28, ../_scss/botwire/_boxes.scss */
+.box-short {
+  min-height: 2em; }
+
+/* line 32, ../_scss/botwire/_boxes.scss */
+.box-tall {
+  min-height: 15em; }
+
 /* line 7, ../_scss/botwire/_panels.scss */
 .panel {
   background: #dddddd;
@@ -933,70 +968,73 @@ body {
   background: #477dca;
   color: white; }
 
-/* line 15, ../_scss/layout/_layout_default.scss */
-.one-sidebar .main {
+/* line 7, ../_scss/layout/_layout_default.scss */
+.main {
+  *zoom: 1; }
+  /* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  .main:before, .main:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  .main:after {
+    clear: both; }
+
+/* line 20, ../_scss/layout/_layout_default.scss */
+.one-sidebar #page {
   *zoom: 1;
   max-width: 60em;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1.618em; }
   /* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
-  .one-sidebar .main:before, .one-sidebar .main:after {
+  .one-sidebar #page:before, .one-sidebar #page:after {
     content: " ";
     display: table; }
   /* line 23, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
-  .one-sidebar .main:after {
+  .one-sidebar #page:after {
     clear: both; }
-  @media screen and (min-width: 61.618em) {
-    /* line 15, ../_scss/layout/_layout_default.scss */
-    .one-sidebar .main {
-      padding: 0; } }
-  /* line 24, ../_scss/layout/_layout_default.scss */
-  .one-sidebar .main .content-primary {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 100%; }
-    /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
-    .one-sidebar .main .content-primary:last-child {
-      margin-right: 0; }
-    @media screen and (min-width: 45em) {
-      /* line 24, ../_scss/layout/_layout_default.scss */
-      .one-sidebar .main .content-primary {
-        display: block;
-        float: left;
-        margin-right: 2.35765%;
-        width: 65.88078%; }
-        /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
-        .one-sidebar .main .content-primary:last-child {
-          margin-right: 0; } }
-  /* line 32, ../_scss/layout/_layout_default.scss */
-  .one-sidebar .main .content-secondary {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 100%; }
-    /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
-    .one-sidebar .main .content-secondary:last-child {
-      margin-right: 0; }
-    @media screen and (min-width: 45em) {
-      /* line 32, ../_scss/layout/_layout_default.scss */
-      .one-sidebar .main .content-secondary {
-        display: block;
-        float: left;
-        margin-right: 2.35765%;
-        width: 31.76157%; }
-        /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
-        .one-sidebar .main .content-secondary:last-child {
-          margin-right: 0; } }
+/* line 25, ../_scss/layout/_layout_default.scss */
+.one-sidebar .content-primary {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%; }
+  /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+  .one-sidebar .content-primary:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 45em) {
+    /* line 25, ../_scss/layout/_layout_default.scss */
+    .one-sidebar .content-primary {
+      display: block;
+      float: left;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      .one-sidebar .content-primary:last-child {
+        margin-right: 0; } }
+/* line 33, ../_scss/layout/_layout_default.scss */
+.one-sidebar .content-secondary {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%; }
+  /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+  .one-sidebar .content-secondary:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 45em) {
+    /* line 33, ../_scss/layout/_layout_default.scss */
+    .one-sidebar .content-secondary {
+      display: block;
+      float: left;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      .one-sidebar .content-secondary:last-child {
+        margin-right: 0; } }
 
 /* line 1, ../_scss/layout/_layout_footer-global.scss */
 .global-footer {
-  *zoom: 1;
-  max-width: 60em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.618em; }
+  *zoom: 1; }
   /* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .global-footer:before, .global-footer:after {
     content: " ";
@@ -1004,27 +1042,13 @@ body {
   /* line 23, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .global-footer:after {
     clear: both; }
-  /* line 4, ../_scss/layout/_layout_footer-global.scss */
-  .global-footer .footer-content {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 100%; }
-    /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
-    .global-footer .footer-content:last-child {
-      margin-right: 0; }
-  @media screen and (min-width: 61.618em) {
-    /* line 1, ../_scss/layout/_layout_footer-global.scss */
-    .global-footer {
-      padding: 1.618em 0; } }
+  /* line 3, ../_scss/layout/_layout_footer-global.scss */
+  .full-width .global-footer {
+    padding: 0 1.618em; }
 
 /* line 1, ../_scss/layout/_layout_header-global.scss */
 .global-header {
-  *zoom: 1;
-  max-width: 60em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.618em; }
+  *zoom: 1; }
   /* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .global-header:before, .global-header:after {
     content: " ";
@@ -1032,19 +1056,9 @@ body {
   /* line 23, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .global-header:after {
     clear: both; }
-  @media screen and (min-width: 61.618em) {
-    /* line 1, ../_scss/layout/_layout_header-global.scss */
-    .global-header {
-      padding: 1.618em 0; } }
-  /* line 7, ../_scss/layout/_layout_header-global.scss */
-  .global-header .header-content {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 100%; }
-    /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
-    .global-header .header-content:last-child {
-      margin-right: 0; }
+  /* line 3, ../_scss/layout/_layout_header-global.scss */
+  .full-width .global-header {
+    padding: 0 1.618em; }
 
 /* line 4, ../_scss/_styleguide.scss */
 .main .example {
@@ -1099,13 +1113,13 @@ a.top-link {
 .global-footer {
   margin-top: 1.618em;
   border-top: 3px solid #d7d7d7;
-  padding-bottom: 4.854em; }
+  padding: 1.618em 0 4.854em 0; }
 
-/* line 1, ../_includes/components/common/addthis/_addthis.scss */
+/* line 3, ../_includes/components/common/addthis/_addthis.scss */
 .addthis {
   margin: 1.2135em 0; }
 
-/* line 1, ../_includes/components/common/logo/_logo.scss */
+/* line 1, ../_includes/components/common/logo/_logo_layout.scss */
 .logo {
   display: block;
   float: left;
@@ -1115,12 +1129,12 @@ a.top-link {
   /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
   .logo:last-child {
     margin-right: 0; }
-  /* line 4, ../_includes/components/common/logo/_logo.scss */
+  /* line 4, ../_includes/components/common/logo/_logo_layout.scss */
   .logo img {
     height: 1.5em;
     width: auto; }
   @media screen and (min-width: 50em) {
-    /* line 1, ../_includes/components/common/logo/_logo.scss */
+    /* line 1, ../_includes/components/common/logo/_logo_layout.scss */
     .logo {
       display: block;
       float: left;
@@ -1129,7 +1143,7 @@ a.top-link {
       /* line 33, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       .logo:last-child {
         margin-right: 0; }
-      /* line 10, ../_includes/components/common/logo/_logo.scss */
+      /* line 10, ../_includes/components/common/logo/_logo_layout.scss */
       .logo img {
         height: auto; } }
 

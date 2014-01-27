@@ -1,5 +1,8 @@
 .global-footer {
   margin-top: $gutter;
   border-top: 3px solid $border-light;
-  padding-bottom: $gutter * 3;
+  padding: $gutter 0 $gutter * 3 0;
+  .full-width & {
+    
+  }
 }

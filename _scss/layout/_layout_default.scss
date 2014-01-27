@@ -3,7 +3,10 @@
 ///////////////////////////
 
 $grid-columns: 12;
-$max-width: 60em;
+
+.main {
+  @include clearfix;
+}
 
 
 /////////////////
@@ -12,30 +15,30 @@ $max-width: 60em;
 
 .one-sidebar { 
 
-  .main {
-		
-		@include outer-container;
+  $max-width: 60em;
+  
+  #page {
+    @include outer-container;
 		padding: 0 $gutter;
-		
-		@include media($large + $gutter) {
-      padding: 0;
-    }
-
-		.content-primary {
-			@include span-columns(12);
-			@include media($medium) {
-				@include span-columns(8);
-			}
-
+  }
+  
+  .content-primary {
+		@include span-columns(12);
+		@include media($medium) {
+			@include span-columns(8);
 		}
-		
-		.content-secondary {
-			@include span-columns(12);
-			@include media($medium) {
-				@include span-columns(4);
-			}
+
+	}
+	
+	.content-secondary {
+		@include span-columns(12);
+		@include media($medium) {
+			@include span-columns(4);
 		}
-		
 	}
 
+}
+
+.full-width {
+  $max-width: 100%;
 }
